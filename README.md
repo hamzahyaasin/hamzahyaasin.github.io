@@ -1,5 +1,5 @@
-// # hamzahyaasin.github.io
-// <!DOCTYPE html>
+<!-- # hamzahyaasin.github.io -->
+<!-- <!DOCTYPE html> -->
 <html>
 <head>
   <title>My Portfolio</title>
