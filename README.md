@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - Hamza</title>
-    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
     <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?  family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic&amp;display=swap"> -->
-    <link rel="stylesheet" href="font-awesome.min.css">
-    <link rel="stylesheet" href="simple-line-icons.min.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <link rel="stylesheet" href="simple-line-icons.css">
 </head>
 
 <body id="page-top"><a class="menu-toggle rounded" href="#"><i class="fa fa-bars"></i></a>
