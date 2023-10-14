@@ -61,3 +61,75 @@
   <script src="script.js"></script>
 </body>
 </html>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 50px;
+  }
+  
+  #home {
+    background-color: #f2f2f2;
+  }
+  
+  #about {
+    background-color: #e6e6e6;
+  }
+  
+  #projects {
+    background-color: #f2f2f2;
+  }
+  
+  #contact {
+    background-color: #e6e6e6;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input,
+  form textarea {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
