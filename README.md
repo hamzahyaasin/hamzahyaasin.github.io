@@ -57,7 +57,7 @@
     </form>
   </section>
   
-  <script src="script.js"></script>
+  <script src="java portfolio.js"></script>
 </body>
 </html>
 
