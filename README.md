@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - Hamza</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic&amp;display=swap">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" href="simple-line-icons.min.css">
 </head>
 
 <body id="page-top"><a class="menu-toggle rounded" href="#"><i class="fa fa-bars"></i></a>
@@ -26,7 +26,7 @@
             </div>
         </div>
     </nav>
-    <header class="d-flex masthead" style="background-image:url('assets/img/bg-masthead.jpg');">
+    <header class="d-flex masthead" style="background-image:url('bg-masthead.jpg');">
         <div class="container my-auto text-center">
             <h1 class="mb-1">Stylish Portfoliо</h1>
             <h3 class="mb-5"><em>A Free Bootstrap Theme</em></h3><a class="btn btn-primary btn-xl js-scroll-trigger" role="button" href="#about">Find Out More</a>
@@ -87,7 +87,7 @@
                                 <h2>Stationary</h2>
                                 <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
                             </div>
-                        </div><img class="img-fluid" src="assets/img/portfolio-1.jpg">
+                        </div><img class="img-fluid" src="portfolio-1.jpg">
                     </a></div>
                 <div class="col-lg-6"><a class="portfolio-item" href="#">
                         <div class="caption">
@@ -95,7 +95,7 @@
                                 <h2>Ice Cream</h2>
                                 <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
                             </div>
-                        </div><img class="img-fluid" src="assets/img/portfolio-2.jpg">
+                        </div><img class="img-fluid" src="portfolio-2.jpg">
                     </a></div>
                 <div class="col-lg-6"><a class="portfolio-item" href="#">
                         <div class="caption">
@@ -103,7 +103,7 @@
                                 <h2>Strawberries</h2>
                                 <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
                             </div>
-                        </div><img class="img-fluid" src="assets/img/portfolio-3.jpg">
+                        </div><img class="img-fluid" src="portfolio-3.jpg">
                     </a></div>
                 <div class="col-lg-6"><a class="portfolio-item" href="#">
                         <div class="caption">
@@ -111,7 +111,7 @@
                                 <h2>Workspace</h2>
                                 <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
                             </div>
-                        </div><img class="img-fluid" src="assets/img/portfolio-4.jpg">
+                        </div><img class="img-fluid" src="portfolio-4.jpg">
                     </a></div>
             </div>
         </div>
@@ -133,8 +133,8 @@
             </div><a class="js-scroll-trigger scroll-to-top rounded" href="#page-top"><i class="fa fa-angle-up"></i></a>
         </footer>
     </section>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/stylish-portfolio.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="stylish-portfolio.js"></script>
 </body>
 
 </html>
