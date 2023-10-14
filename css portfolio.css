@@ -3,13 +3,13 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, #f8f9fa, #e9ecef); /* Light gray to darker gray gradient */
+  background: linear-gradient(to right, #f0f2f5, #d9e4ec); /* Lighter gray to lighter blue gradient */
   transition: background 0.5s ease;
 }
 
 /* Use a border-radius and a box-shadow for the header */
 header {
-  background-color: #343a40; /* Dark gray header background */
+  background-color: #2c3e50; /* Darker blue header background */
   color: #ffffff; /* White text color */
   padding: 10px;
   border-radius: 10px; /* Rounded corners */
@@ -37,7 +37,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #ffc107; /* Yellow on hover */
+  color: #f39c12; /* Orange on hover */
 }
 
 /* Use a grid layout for the sections */
@@ -49,24 +49,24 @@ section {
 
 /* Use different background colors and text shadows for different sections */
 #home {
-  background-color: #007bff; /* Bright blue section background */
+  background-color: #3498db; /* Lighter blue section background */
   color: #ffffff;
-  text-shadow: -1px -1px #343a40; /* Dark gray text shadow */
+  text-shadow: -1px -1px #2c3e50; /* Darker blue text shadow */
 }
 
 #about {
-  background-color: #6c757d; /* Dark gray section background */
+  background-color: #7f8c8d; /* Lighter gray section background */
   color: #ffffff;
 }
 
 #projects {
-  background-color: #28a745; /* Green section background */
+  background-color: #2ecc71; /* Lighter green section background */
   color: #ffffff;
 }
 
 #contact {
-  background-color: #ffc107; /* Yellow section background */
-  color: #343a40; /* Dark gray text color */
+  background-color: #f39c12; /* Orange section background */
+  color: #2c3e50; /* Darker blue text color */
 }
 
 /* Use pseudo-elements to create decorative shapes before and after each section */
@@ -84,49 +84,49 @@ section::after {
 #home::before {
     top:-25px;
     left:-25px;
-    background:#ffc107
+    background:#f39c12
 }
 #home::after {
     bottom:-25px;
     right:-25px;
-    background:#28a745
+    background:#2ecc71
 }
 #about::before {
     top:-25px;
     right:-25px;
-    background:#007bff
+    background:#3498db
 }
 #about::after {
     bottom:-25px;
     left:-25px;
-    background:#ffc107
+    background:#f39c12
 }
 #projects::before {
     top:-25px;
     left:-25px;
-    background:#6c757d
+    background:#7f8c8d
 }
 #projects::after {
     bottom:-25px;
     right:-25px;
-    background:#007bff
+    background:#3498db
 }
 #contact::before {
     top:-25px;
     right:-25px;
-    background:#28a745
+    background:#2ecc71
 }
 #contact::after {
     bottom:-25px;
     left:-25px;
-    background:#6c757d
+    background:#7f8c8d
 }
 
 /* Use a transform and a transition for the form elements on hover */
 form label {
   display: block;
   margin-bottom: 5px;
-  color: #343a40; 
+  color: #2c3e50; 
 }
 
 form input,
@@ -148,7 +148,7 @@ form textarea {
 form input[type="text"]:hover,
 form input[type="email"]:hover,
 form textarea:hover{
-   border-color :#343a40; 
+   border-color :#2c3e50; 
    transform :translate(-2px,-2px)
 }
 
@@ -160,12 +160,12 @@ form input[type="submit"] {
    width :100%; 
    font-weight :bold; 
    color :#ffffff; 
-   background-color :#343a40; 
+   background-color :#2c3e50; 
    transition :all .3s ease-in-out; 
    transform :translate(0,0)
 }
 
 form input[type="submit"]:hover {
-   background-color :#007bff; /* Bright blue button on hover */
+   background-color :#3498db; /* Lighter blue button on hover */
    transform :translate(-2px,-2px)
 }
