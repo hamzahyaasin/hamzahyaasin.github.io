@@ -16,25 +16,25 @@
   </header>
   
   <section id="home">
-    <h1>Welcome to My Portfolio</h1>
-    <p>Hi, I'm John Doe. I'm a web developer.</p>
+    <h1>Hello World!</h1>
+    <p>Hi, I'm Hamza Yasin. I'm a Data Scientist and Machine Learning Practitioner..</p>
   </section>
   
   <section id="about">
     <h2>About Me</h2>
-    <p>I have several years of experience in web development. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p>Undergraduate student of BSCS at National University of Modern Languages</p>
   </section>
   
   <section id="projects">
     <h2>Projects</h2>
     <ul>
       <li>
-        <h3>Project 1</h3>
-        <p>Description of project 1.</p>
+        <h3>Model Training.</h3>
+        <p>To accurately predict heart failures.</p>
       </li>
       <li>
-        <h3>Project 2</h3>
-        <p>Description of project 2.</p>
+        <h3>My Portfolio</h3>
+        <p>To demonstrate my expertise.</p>
       </li>
       <li>
         <h3>Project 3</h3>
