@@ -1,49 +1,70 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+  display: inline;
+  margin-right: 10px;
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
-.section {
-    padding: 60px 0;
-    text-align: center;
+section {
+  padding: 50px;
 }
 
-.section h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
+#home {
+  background-color: #f2f2f2;
 }
 
-.section p {
-    font-size: 18px;
-    color: #555;
+#about {
+  background-color: #e6e6e6;
 }
 
-/* Add your own styles for projects and other sections as needed */
+#projects {
+  background-color: #f2f2f2;
+}
+
+#contact {
+  background-color: #e6e6e6;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+}
+
+form input[type="submit"]:hover {
+  background-color: #555;
+}
