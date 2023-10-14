@@ -4,6 +4,7 @@
 <head>
   <title>My Portfolio</title>
   <link rel="stylesheet" type="text/css" href="css portfolio.css">
+  <script src="java portfolio.js"></script>
 </head>
 <body>
   <header>
@@ -58,6 +59,6 @@
     </form>
   </section>
   
-  <script src="java portfolio.js"></script>
+  
 </body>
 </html>
