@@ -1,6 +1,6 @@
 <!-- # hamzahyaasin.github.io -->
 <!-- <!DOCTYPE html> -->
-<html>
+<!-- <html>
 <head>
   <title>My Portfolio</title>
   <link rel="stylesheet" type="text/css" href="css portfolio.css">
@@ -60,4 +60,4 @@
   
   <script src="java portfolio.js"></script>
 </body>
-</html>
+</html> -->
