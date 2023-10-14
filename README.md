@@ -19,12 +19,12 @@
   
   <section id="home">
     <h1>Welcome to My Portfolio</h1>
-    <p>Hi, I'm John Doe. I'm a web developer.</p>
+    <p>Hi, I'm Hamza. I'm a Data Scientist.</p>
   </section>
   
   <section id="about">
     <h2>About Me</h2>
-    <p>I have several years of experience in web development. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p>I am a student at National University of Modern Languages.</p>
   </section>
   
   <section id="projects">
