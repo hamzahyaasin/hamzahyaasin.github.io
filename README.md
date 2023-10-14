@@ -3,7 +3,7 @@
 <html>
 <head>
   <title>My Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="css portfolio.css">
 </head>
 <body>
   <header>
@@ -24,7 +24,7 @@
   
   <section id="about">
     <h2>About Me</h2>
-    <p>I am a student at National University of Modern Languages.</p>
+    <p>I am a student at the National University of Modern Languages.</p>
   </section>
   
   <section id="projects">
@@ -58,6 +58,6 @@
     </form>
   </section>
   
-  <script src="script.js"></script>
+  <script src="java portfolio.js"></script>
 </body>
 </html>
