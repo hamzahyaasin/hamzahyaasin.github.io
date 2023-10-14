@@ -1,28 +1,33 @@
+/* Use a gradient background for the body */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f8f9fa; /* Light gray background */
-  transition: background-color 0.5s ease;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef); /* Light gray to darker gray gradient */
+  transition: background 0.5s ease;
 }
 
+/* Use a border-radius and a box-shadow for the header */
 header {
   background-color: #343a40; /* Dark gray header background */
   color: #ffffff; /* White text color */
   padding: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: inset 0 -4px 6px rgba(0, 0, 0, 0.1); /* Inner shadow at the bottom */
   transition: background-color 0.5s ease;
 }
 
+/* Use a flexbox layout for the navigation menu */
 nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  display: flex; /* Flexbox layout */
+  justify-content: space-around; /* Evenly spaced items */
 }
 
 nav ul li {
   display: inline;
-  margin-right: 20px;
 }
 
 nav ul li a {
@@ -32,70 +37,135 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #007bff; /* Bright blue on hover */
+  color: #ffc107; /* Yellow on hover */
 }
 
+/* Use a grid layout for the sections */
 section {
   padding: 50px;
-  background-color: #ffffff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s ease;
+  display: grid; /* Grid layout */
+  grid-template-columns: repeat(2, auto); /* Two columns of equal width */
 }
 
-section:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow on hover */
-}
-
+/* Use different background colors and text shadows for different sections */
 #home {
   background-color: #007bff; /* Bright blue section background */
   color: #ffffff;
-  transition: background-color 0.5s ease;
+  text-shadow: -1px -1px #343a40; /* Dark gray text shadow */
 }
 
 #about {
   background-color: #6c757d; /* Dark gray section background */
   color: #ffffff;
-  transition: background-color 0.5s ease;
 }
 
 #projects {
   background-color: #28a745; /* Green section background */
   color: #ffffff;
-  transition: background-color 0.5s ease;
 }
 
 #contact {
   background-color: #ffc107; /* Yellow section background */
   color: #343a40; /* Dark gray text color */
-  transition: background-color 0.5s ease;
 }
 
+/* Use pseudo-elements to create decorative shapes before and after each section */
+section::before,
+section::after {
+    content:"";
+    position:absolute;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    z-index:-1;
+    opacity:.5;
+    transition:.3s ease-in-out
+}
+#home::before {
+    top:-25px;
+    left:-25px;
+    background:#ffc107
+}
+#home::after {
+    bottom:-25px;
+    right:-25px;
+    background:#28a745
+}
+#about::before {
+    top:-25px;
+    right:-25px;
+    background:#007bff
+}
+#about::after {
+    bottom:-25px;
+    left:-25px;
+    background:#ffc107
+}
+#projects::before {
+    top:-25px;
+    left:-25px;
+    background:#6c757d
+}
+#projects::after {
+    bottom:-25px;
+    right:-25px;
+    background:#007bff
+}
+#contact::before {
+    top:-25px;
+    right:-25px;
+    background:#28a745
+}
+#contact::after {
+    bottom:-25px;
+    left:-25px;
+    background:#6c757d
+}
+
+/* Use a transform and a transition for the form elements on hover */
 form label {
   display: block;
   margin-bottom: 5px;
-  color: #343a40;
-  transition: color 0.3s ease;
+  color: #343a40; 
 }
 
 form input,
 form textarea {
   margin-bottom: 10px;
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ced4da; /* Light gray border */
-  background-color: #ffffff;
-  transition: background-color 0.3s ease, border-color 0.3s ease;
+  width: calc(100% -20px); /* Adjust the width to account for the padding */
+  padding:10px; 
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+   border-radius :5px; 
+   border :1px solid #ced4da; 
+   transition :all .3s ease-in-out; 
+   transform :translate(0,0)
+}
+
+form input[type="text"]:hover,
+form input[type="email"]:hover,
+form textarea:hover{
+   border-color :#343a40; 
+   transform :translate(-2px,-2px)
 }
 
 form input[type="submit"] {
-  background-color: #343a40;
-  color: #ffffff;
-  cursor: pointer;
-  padding: 10px 20px;
-  border: none;
-  transition: background-color 0.3s ease;
+   border-radius :20px; 
+   border :none; 
+   cursor :pointer; 
+   padding :10px; 
+   width :100%; 
+   font-weight :bold; 
+   color :#ffffff; 
+   background-color :#343a40; 
+   transition :all .3s ease-in-out; 
+   transform :translate(0,0)
 }
 
 form input[type="submit"]:hover {
-  background-color: #007bff; /* Bright blue button on hover */
+   background-color :#007bff; /* Bright blue button on hover */
+   transform :translate(-2px,-2px)
 }
